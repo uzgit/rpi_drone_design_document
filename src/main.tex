@@ -1,19 +1,27 @@
-%! Author = joshua
-%! Date = 22.1.2021
-
 % Preamble
 \documentclass[11pt]{article}
 
 % Packages
 \usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{datetime}
+\newdateformat{specialdate}{\twodigit{\THEDAY} \ \monthname[\THEMONTH] \THEYEAR}
 
 \author{Joshua Springer}
 \title{\LaTeX Template}
+
+\date{\specialdate\today}
+
 \begin{document}
     \maketitle
 
     This is a document for testing \LaTeX within PyCharm.\cite{small}
 
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{example-image}
+    \end{figure}
+    
     \lipsum{0}
 
     \bibliography{main}
