@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/latex_template.iml" filepath="$PROJECT_DIR$/.idea/latex_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rpi_drone_design_document.iml" filepath="$PROJECT_DIR$/.idea/rpi_drone_design_document.iml" />
     </modules>
   </component>
 </project>

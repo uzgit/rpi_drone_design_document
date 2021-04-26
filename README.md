@@ -1,1 +1,1 @@
-# latex_paper_template
+# Design Document for the RPi Drone.
